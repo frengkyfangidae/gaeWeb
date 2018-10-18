@@ -3,4 +3,20 @@ api_version: 1
 threadsafe: true
 handlers:
 - url: /.*
-  script: pantai.php      
+  script: pantai.php
+- url: /img
+  static_dir: img
+- url: /images
+  static_dir: images
+- url: /pict
+  static_dir: pict
+- url: /styles
+  static_dir: styles
+- url: /vendor
+  static_dir: vendor
+- url: /css
+  static_dir: css
+- url: /gallery.php
+  script: gallery.php
+- url: /about.php
+  script: about.php
